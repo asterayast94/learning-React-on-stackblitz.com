@@ -13,7 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/auth" element={<Auth />} />
+        <Route path="/home" element={<Auth />} />
+        <Route path="/a" element={<Auth />} />
+        {/* <Route path="/" element={<Auth />} /> */}
       </Routes>
     </BrowserRouter>
   );
