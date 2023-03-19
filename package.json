@@ -7,6 +7,8 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.2",
     "bootstrap": "^5.2.3",
+    "create-supertokens-app": "latest",
+    "npx": "^10.2.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.9.0"

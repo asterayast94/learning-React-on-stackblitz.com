@@ -8,13 +8,15 @@ import './Containers/App.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Auth from './Containers/Auth';
+import Home from './Containers/home';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Auth />} />
-        <Route path="/a" element={<Auth />} />
+        <Route path="/" element={<Auth />} />
+        <Route path="/home" element={<Home />} />
+
         {/* <Route path="/" element={<Auth />} /> */}
       </Routes>
     </BrowserRouter>
@@ -22,6 +24,7 @@ function App() {
 }
 
 export default App;
+
 // export default function App() {
 //   return (
 //     <div>
